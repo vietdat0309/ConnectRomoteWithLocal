@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>"D:/HOCLAPTRINH/Java/TheFirstWeb/toeic-web-logic/pom.xml"
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+    	<groupId>vn.myclass</groupId>
+		<artifactId>ToeicOnline</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+		<relativePath>../ToeicOnline/pom.xml</relativePath>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>toeic-web-logic</artifactId>
+    <dependencies>
+        <dependency>
+            <groupId>vn.myclass</groupId>
+            <artifactId>toeic-core-dto</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>vn.myclass</groupId>
+            <artifactId>toeic-core-web</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>vn.myclass</groupId>
+            <artifactId>toeic-core-service</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>vn.myclass</groupId>
+            <artifactId>toeic-core-serviceimpl</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
+
+
+</project>
